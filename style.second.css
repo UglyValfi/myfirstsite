@@ -1,0 +1,134 @@
+body{
+    background-color: lightpink;
+}
+.backround_main{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10px;
+    background: url(images/background.jpg);
+    width: 100%;
+    height: 800px;
+}
+.table_nav{
+    margin-left: 130px;
+    border-bottom:1px solid purple;
+}
+.ugly_text{
+    margin-left: -45px;
+    color: white;
+}
+.ugly_td{
+    width: 650px;
+}
+a{
+    text-decoration: none;
+}
+.td_second{
+    color: white;
+}
+.td_home{
+    width: 70px;
+}
+.td_serv{
+    width: 100px;
+}
+.td_facebook{
+    width: 110px;
+}
+.td_insta{
+    width: 120px;
+}
+.main_about{
+    display: flex;
+    flex-direction: column;
+}
+.about_zag{
+    margin-top: 200px;
+    margin-left: 130px;
+}
+.zag_text{
+    color: white;
+}
+.about_desc{
+    color: #d3d3d3;
+    margin-left: 130px;
+}
+.main_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.discord{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.discord_text{
+    text-decoration:none;
+    display: block;
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: RoyalBlue;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.discord_logo{
+    margin-top: 8px;
+    margin-left: -155px;
+}
+.steam{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;    
+}
+.steam_text{
+    text-decoration:none;
+    margin-top: 40px;
+    margin-left: 150px;
+    text-decoration:none;
+    display: block;
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+    color: white;
+}
+.steam_logo{
+    margin-top: 47px;
+    margin-left: -150px;
+}
+.discord_text:hover{
+    background: rgb(29,33,242);
+    background: linear-gradient(90deg, rgba(29,33,242,1) 29%, rgba(0,18,255,1) 68%);
+}
+.steam_text:hover{
+    background: rgb(74,66,66);
+    background-color: linear-gradient(90deg, rgba(74,66,66,1) 35%, rgba(41,41,43,1) 100%);
+}
+.home:hover{
+    color: Silver;
+}
+.facebook:hover{
+    color: Silver;
+}
+.instagram:hover{
+    color: Silver;
+}
+.discord:hover{
+    color: Silver;
+}
+.telegram:hover{
+    color: Silver;
+}
+.services:hover{
+    color: Silver;
+}
