@@ -173,6 +173,7 @@ a{
     margin-left: 70px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .games_img{
     margin-top: 118px;
