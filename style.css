@@ -1,9 +1,9 @@
 body{
-    background-color: lightpink;
+    background-color: purple;
 }
 .backround_main{
     font-family: 'Montserrat', sans-serif;
-    margin-top: -10px;
+    margin-top: -20px;
     background: url(images/background.jpg);
     width: 100%;
     height: 800px;
@@ -131,4 +131,71 @@ a{
 }
 .services:hover{
     color: Silver;
+}
+.main_second{
+    height: 500px;
+    font-family: 'Londrina Solid', cursive;
+    background-color: lightpink;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+}
+.hobbies_inner{
+    text-align: center;
+    font-size: 25px;
+}
+.hobbies_inner_sec{
+    text-align: center;
+    font-size: 25px;
+}
+
+.welcome_second{
+    color: #7d7d7d;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+}
+.web_img{
+    margin-top: 90px;
+    margin-left: 250px;
+}
+.web_text{
+    margin-left: 275px;
+}
+.web_desc{
+    color: #7d7d7d;
+    margin-top: -30px;
+    margin-left: 240px;
+}
+.three_hobbie{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.games_img{
+    margin-top: 118px;
+    margin-left: 170px;
+}
+.games_text{
+    margin-left: 215px;
+}
+.games_desc{
+    color: #7d7d7d;
+    margin-top: -12px;
+    margin-left: 140px;
+}
+.volleyball_img{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.volleyball_text{
+    margin-top: -50px;
+    margin-left: 205px;
+}
+.volleyball_desc{
+    color: #7d7d7d;
+    margin-left: 150px;
+    margin-top: -13px;
 }
