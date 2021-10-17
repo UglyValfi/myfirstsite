@@ -1,56 +1,118 @@
 body{
+    background-color: lightpink;
+}
+.backround_main{
     font-family: 'Montserrat', sans-serif;
-}
-.main_div{
-    margin-top: -20px;
-    margin-left: -20px;
+    margin-top: -10px;
+    background: url(images/background.jpg);
+    width: 100%;
     height: 800px;
-    width: 1595px;
-    background:url(images/background.jpg)    
-
 }
-.table_first{
+.table_nav{
     margin-left: 130px;
-    border-bottom: 1px solid DarkViolet;
+    border-bottom:1px solid purple;
 }
-.td_logo{
-    width: 0px;
-}
-.td_valfi{
-    font-size: 25px;
+.ugly_text{
+    margin-left: -45px;
     color: white;
-    margin-left: -40px;
-    width: 30px;
 }
-.td_first{
-    width: 400px;
+.ugly_td{
+    width: 650px;
+}
+a{
+    text-decoration: none;
 }
 .td_second{
     color: white;
-    text-decoration: none;
 }
-.home{
-    margin-left:150px;
+.td_home{
+    width: 70px;
 }
-.services{
-    margin-left: 20px;
+.td_serv{
+    width: 100px;
 }
-.facebook{
-    margin-left: 20px;
+.td_facebook{
+    width: 110px;
 }
-.instagram{
-    margin-left: 20px;
+.td_insta{
+    width: 120px;
+}
+.main_about{
+    display: flex;
+    flex-direction: column;
+}
+.about_zag{
+    margin-top: 200px;
+    margin-left: 130px;
+}
+.zag_text{
+    color: white;
+}
+.about_desc{
+    color: #d3d3d3;
+    margin-left: 130px;
+}
+.main_buttons{
+    display: flex;
+    flex-direction: row;
 }
 .discord{
-    -webkit-box-shadow: 2px 4px 27px 23px rgba(34, 60, 80, 0.69);
-    -moz-box-shadow: 2px 4px 27px 23px rgba(34, 60, 80, 0.69);
-    box-shadow: 2px 4px 27px 23px rgba(34, 60, 80, 0.69);
-    border-radius: 15px;
-    padding: 20px;
-    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 120px;
 }
-.telegram{
-    margin-left: 15px;
+.discord_text{
+    text-decoration:none;
+    display: block;
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: RoyalBlue;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.discord_logo{
+    margin-top: 8px;
+    margin-left: -155px;
+}
+.steam{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;    
+}
+.steam_text{
+    text-decoration:none;
+    margin-top: 40px;
+    margin-left: 150px;
+    text-decoration:none;
+    display: block;
+    width: 120px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+    color: white;
+}
+.steam_logo{
+    margin-top: 47px;
+    margin-left: -150px;
+}
+.discord_text:hover{
+    background: rgb(29,33,242);
+    background: linear-gradient(90deg, rgba(29,33,242,1) 29%, rgba(0,18,255,1) 68%);
+}
+.steam_text:hover{
+    background: rgb(74,66,66);
+    background-color: linear-gradient(90deg, rgba(74,66,66,1) 35%, rgba(41,41,43,1) 100%);
 }
 .home:hover{
     color: Silver;
@@ -69,183 +131,4 @@ body{
 }
 .services:hover{
     color: Silver;
-}
-.popular_valfi{
-    color: Gainsboro;
-    margin-left: 140px;
-    font-size: 25px;
-}
-.popular_td{
-    height: 80px;
-}
-.table_second{
-    margin-top: 180px;
-}
-.aboutme_tr {
-    margin-left: 140px;
-    color: LightGrey;
-}
-.table_third{
-    margin-top:50px
-}
-.discord_td{
-    margin-left: 150px;
-    text-decoration:none;
-    display: block;
-    width: 120px;
-    border-radius: 15px;
-    background-color: RoyalBlue;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-}
-.Steam{
-    text-decoration:none;
-    margin-left: 50px;
-    text-decoration:none;
-    display: block;
-    width: 120px;
-    border-radius: 15px;
-    background-color: black;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-}
-
-.Steam:hover{
-    background: rgb(74,66,66);
-    background-color: linear-gradient(90deg, rgba(74,66,66,1) 35%, rgba(41,41,43,1) 100%);
-}
-.discord_logo{
-    margin-top: 3px;
-    margin-left: -389px;
-    
-}
-.steam_logo{
-    margin-left: -155px;
-}
-.discord_td:hover{
-    background: rgb(29,33,242);
-    background: linear-gradient(90deg, rgba(29,33,242,1) 29%, rgba(0,18,255,1) 68%);
-}
-.first_div{
-    margin-left: -8px;
-    width:5000px;
-    background-color:white
-    
-}
-.main_second_page{
-    margin-left:750px
-}
-.mai_second_page{
-    margin-left:730px;
-}
-.welcome{
-    font-size: 25px;
-    width: 2000px;
-    text-align: center;
-}
-.welcome_text{
-    color: #7c7c7c;
-}
-.img_web{
-    margin-left: 250px;
-}
-.text_web{
-    margin-left: 275px;
-}
-.describe_web{
-    margin-left: 235px;
-    color: #7c7c7c;
-}
-.fiveth_table{
-    margin-top: -280px;
-    margin-left: 690px;
-}
-.text_gaming{
-    margin-left: 55px;
-}
-.desc_gaming{
-    margin-left: -30px;
-    color: #7c7c7c;
-}
-.table_sixth{
-    margin-top: -335px;
-    margin-left: 1100px;
-}
-.text_volletball{
-    margin-top: -25px;
-    margin-left: 110px;
-}
-.desc_volleyball{
-    margin-top: -0px;
-    margin-left: 40px;
-    color: #7c7c7c;
-}
-.hobbies_div{
-    margin-top: 30px;
-}
-.second_page_div{
-    margin-left: -10px;
-    background-color:lightpink;
-    font-family: 'Londrina Solid', cursive;
-    height: 500px;
-    width: 1585px;
-}
-.third_page{
-    background-color:#FFD1DC;
-    font-family: 'Londrina Solid', cursive;
-    font-family: 'Raleway', sans-serif;
-    margin-left: -10px;
-    height: 712px;
-    width: 1585px;
-}
-.steam_image_third{
-    margin-top: 100px;
-    margin-left: 15px;
-    border-radius: 15px;
-}
-.table_third_page{
-    margin-top: -480px;
-    margin-left: 900px;
-}
-.steam_profile{
-    color: #7c7c7c;
-}
-.games{
-    margin-top: -13px;
-}
-.lorem{
-    color: #7c7c7c;
-}
-.ul_first{
-    margin-left: -40px;
-    
-}
-li {
-    list-style-type: none; /* Прячем исходные маркеры */
-   }
-   li::before {
-    color: aqua; /* Цвет маркера */
-    content: "✦"; /* Сам маркер */
-    padding-right: 10px;
-   }
-.read_more{
-    margin-left: 15px;
-    background-color: DodgerBlue;
-    padding: 15px;
-    border-radius:35px;
-    color: white;
-    text-decoration:none;
-}
-#phone_img{
-    margin-top: 100px;
-    margin-left: -500px;
-}
-/*
-.jgujfgjfj{
 }
