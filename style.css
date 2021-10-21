@@ -142,11 +142,11 @@ a{
     flex-direction: column;
 }
 .hobbies_inner{
-    text-align: center;
+    margin-left: 10px;
     font-size: 25px;
 }
 .hobbies_inner_sec{
-    text-align: center;
+    margin-left: 10px;
     font-size: 25px;
 }
 
@@ -198,4 +198,51 @@ a{
     color: #7d7d7d;
     margin-left: 150px;
     margin-top: -13px;
+}
+.main_third{
+    width: 100%;
+    height: 712px;
+    background-color: #FFD1DC
+}
+.main{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.main_left{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.right_table{
+    margin-top: 150px;
+    margin-left: 220px;
+}
+.steam_profile{
+    color: #7d7d7d;
+}
+.games{
+    margin-top: -13px;
+}
+.lorem{
+    color: #7c7c7c;
+}
+.ul_first{
+    margin-left: -40px;
+    
+}
+li {
+    list-style-type: none; /* Прячем исходные маркеры */
+   }
+   li::before {
+    color: aqua; /* Цвет маркера */
+    content: "✦"; /* Сам маркер */
+    padding-right: 10px;
+   }
+.read_more{
+    margin-left: 15px;
+    background-color: DodgerBlue;
+    padding: 15px;
+    border-radius:35px;
+    color: white;
+    text-decoration:none;
 }
